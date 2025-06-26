@@ -1,0 +1,184 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "created": "2023-07-20T12:00:00Z",
+    "last_updated": "2024-06-10T09:30:00Z",
+    "description": "CIS Controls and Benchmarks Questions"
+  },
+  "assessments": [
+    {
+      "id": "CIS_CONTROLS_001",
+      "name": "CIS Controls Maturity Assessment",
+      "type": "controls",
+      "questions": [
+        {
+          "id": "CIS-Q1",
+          "text": "Should additional resources be allocated to A Security Awareness Program in our environment?"
+        },
+        {
+          "id": "CIS-Q2",
+          "text": "Are there measurable outcomes demonstrating An Incident Response Capability effectiveness for critical assets?"
+        },
+        {
+          "id": "CIS-Q3",
+          "text": "Would independent verification confirm proper Network Monitoring implementation in our environment?"
+        },
+        {
+          "id": "CIS-Q4",
+          "text": "Have all relevant personnel received training on Web Browser Protections in our environment?"
+        },
+        {
+          "id": "CIS-Q5",
+          "text": "Must any components of Access V8 Resources be strengthened across all systems?"
+        },
+        {
+          "id": "CIS-Q6",
+          "text": "Did recent audits identify weaknesses in Configuration implementation in production environments?"
+        },
+        {
+          "id": "CIS-Q7",
+          "text": "Are there measurable outcomes demonstrating CIS Controls effectiveness in our environment?"
+        },
+        {
+          "id": "CIS-Q8",
+          "text": "Is documentation for Configuration processes complete and current for third-party vendors?"
+        },
+        {
+          "id": "CIS-Q9",
+          "text": "Would independent verification confirm proper CIS Controls implementation during system changes?"
+        },
+        {
+          "id": "CIS-Q10",
+          "text": "Did recent audits identify weaknesses in Audit Logs implementation for third-party vendors?"
+        },
+        {
+          "id": "CIS-Q11",
+          "text": "Should additional resources be allocated to Network Monitoring for critical assets?"
+        },
+        {
+          "id": "CIS-Q12",
+          "text": "Do monitoring systems provide adequate visibility into Control in production environments?"
+        },
+        {
+          "id": "CIS-Q13",
+          "text": "Should additional resources be allocated to CIS Control for third-party vendors?"
+        },
+        {
+          "id": "CIS-Q14",
+          "text": "Can the organization demonstrate effective use of Controls within our organization?"
+        },
+        {
+          "id": "CIS-Q15",
+          "text": "Does the organization benchmark Cybersecurity Risks against industry standards in our environment?"
+        },
+        {
+          "id": "CIS-Q16",
+          "text": "Does the organization implement Technical Controls within our organization?"
+        },
+        {
+          "id": "CIS-Q17",
+          "text": "Was CIS Controls considered during the last risk assessment for critical assets?"
+        },
+        {
+          "id": "CIS-Q18",
+          "text": "Was Cybersecurity Risks considered during the last risk assessment for critical assets?"
+        },
+        {
+          "id": "CIS-Q19",
+          "text": "Are stakeholders aware of their responsibilities regarding Cybersecurity Posture for critical assets?"
+        },
+        {
+          "id": "CIS-Q20",
+          "text": "Was Security Threats considered during the last risk assessment?"
+        }
+      ]
+    },
+    {
+      "id": "CIS_BENCHMARKS_001",
+      "name": "CIS Benchmarks Maturity Assessment",
+      "type": "benchmarks",
+      "questions": [
+        {
+          "id": "BENCH-Q1",
+          "text": "Must any Firewall configurations be corrected for critical assets?"
+        },
+        {
+          "id": "BENCH-Q2",
+          "text": "Were Cybersecurity Experts settings validated against benchmarks recently?"
+        },
+        {
+          "id": "BENCH-Q3",
+          "text": "Is documentation available for all Prescriptive Configuration Recommendations configuration standards?"
+        },
+        {
+          "id": "BENCH-Q4",
+          "text": "Are Firewall configuration standards reviewed annually for third-party vendors?"
+        },
+        {
+          "id": "BENCH-Q5",
+          "text": "Should CIS Benchmarks FAQ Page configurations be updated to address new threats within our organization?"
+        },
+        {
+          "id": "BENCH-Q6",
+          "text": "Was CIS Benchmarks FAQ Page compliance verified before production deployment for third-party vendors?"
+        },
+        {
+          "id": "BENCH-Q7",
+          "text": "Would penetration testing reveal weaknesses in Cisco Wireless LAN Controller settings in our environment?"
+        },
+        {
+          "id": "BENCH-Q8",
+          "text": "Are CIS Benchmarks FAQ Page configuration standards reviewed annually in production environments?"
+        },
+        {
+          "id": "BENCH-Q9",
+          "text": "Are deviations from Cybersecurity Experts benchmarks properly authorized for critical assets?"
+        },
+        {
+          "id": "BENCH-Q10",
+          "text": "Is documentation available for all Point Firewall configuration standards?"
+        },
+        {
+          "id": "BENCH-Q11",
+          "text": "Are Palo Alto Firewall standards consistently applied across environments for critical assets?"
+        },
+        {
+          "id": "BENCH-Q12",
+          "text": "Are deviations from Microsoft Access benchmarks properly authorized in our environment?"
+        },
+        {
+          "id": "BENCH-Q13",
+          "text": "Have all systems been assessed for Security Recommendations compliance across all systems?"
+        },
+        {
+          "id": "BENCH-Q14",
+          "text": "Does evidence confirm compliance with CIS Benchmark requirements for critical assets?"
+        },
+        {
+          "id": "BENCH-Q15",
+          "text": "Does the organization maintain hardening guides for CIS Benchmarks Community in our environment?"
+        },
+        {
+          "id": "BENCH-Q16",
+          "text": "Do metrics show improvement in Old Benchmarks configuration compliance in our environment?"
+        },
+        {
+          "id": "BENCH-Q17",
+          "text": "Must any A CIS Benchmarks Walkthrough configurations be corrected within our organization?"
+        },
+        {
+          "id": "BENCH-Q18",
+          "text": "Is documentation available for all Download Benchmarks configuration standards in our environment?"
+        },
+        {
+          "id": "BENCH-Q19",
+          "text": "Must any Sophos XG Firewall V18 configurations be corrected during system changes?"
+        },
+        {
+          "id": "BENCH-Q20",
+          "text": "Do metrics show improvement in Palo Alto Firewall configuration compliance for critical assets?"
+        }
+      ]
+    }
+  ]
+}
