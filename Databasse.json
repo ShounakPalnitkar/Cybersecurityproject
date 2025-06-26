@@ -1,0 +1,186 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "created": "2023-07-20T12:00:00Z",
+    "last_updated": "2023-07-20T12:00:00Z",
+    "description": "Database of security assessment questions and templates"
+  },
+  "question_templates": {
+    "controls": [
+      {
+        "template": "Does the organization implement {control} {scope}?",
+        "category": "implementation"
+      },
+      {
+        "template": "Are personnel following procedures for {control} {scope}?",
+        "category": "compliance"
+      },
+      {
+        "template": "Can the organization demonstrate effective use of {control} {scope}?",
+        "category": "effectiveness"
+      },
+      {
+        "template": "When was {control} last reviewed or updated {scope}?",
+        "category": "maintenance"
+      },
+      {
+        "template": "Should additional resources be allocated to {control} {scope}?",
+        "category": "resource_allocation"
+      },
+      {
+        "template": "Would independent verification confirm proper {control} implementation {scope}?",
+        "category": "verification"
+      },
+      {
+        "template": "Might there be gaps in applying {control} consistently {scope}?",
+        "category": "gap_analysis"
+      },
+      {
+        "template": "Does leadership regularly review metrics for {control} {scope}?",
+        "category": "governance"
+      },
+      {
+        "template": "Are exceptions to {control} properly documented and approved {scope}?",
+        "category": "documentation"
+      },
+      {
+        "template": "Will current {control} implementations withstand emerging threats {scope}?",
+        "category": "resilience"
+      }
+    ],
+    "benchmarks": [
+      {
+        "template": "Are {control} configurations aligned with industry standards {scope}?",
+        "category": "alignment"
+      },
+      {
+        "template": "Does evidence confirm compliance with {control} requirements {scope}?",
+        "category": "compliance"
+      },
+      {
+        "template": "Were {control} settings validated against benchmarks recently {scope}?",
+        "category": "validation"
+      },
+      {
+        "template": "Must any {control} configurations be corrected {scope}?",
+        "category": "remediation"
+      },
+      {
+        "template": "Can the organization demonstrate adherence to {control} baselines {scope}?",
+        "category": "adherence"
+      },
+      {
+        "template": "Is documentation available for all {control} configuration standards {scope}?",
+        "category": "documentation"
+      },
+      {
+        "template": "Are deviations from {control} benchmarks properly authorized {scope}?",
+        "category": "governance"
+      },
+      {
+        "template": "Do tools automatically enforce {control} configuration standards {scope}?",
+        "category": "automation"
+      },
+      {
+        "template": "Were {control} settings reviewed during the last change cycle {scope}?",
+        "category": "change_management"
+      },
+      {
+        "template": "Should {control} configurations be updated to address new threats {scope}?",
+        "category": "threat_management"
+      }
+    ]
+  },
+  "assessments": [
+    {
+      "id": "CIS_CONTROLS_001",
+      "name": "CIS Controls Maturity Assessment",
+      "type": "controls",
+      "questions": [
+        {
+          "id": "Q1",
+          "text": "Does leadership regularly review metrics for Access Control Management in production environments?",
+          "response_options": [
+            "Not Implemented",
+            "Partially Implemented",
+            "Mostly Implemented",
+            "Fully Implemented"
+          ],
+          "template_id": 8,
+          "parameters": {
+            "control": "Access Control Management",
+            "scope": "in production environments"
+          },
+          "metadata": {
+            "created": "2023-07-20T12:00:00Z",
+            "last_modified": "2023-07-20T12:00:00Z"
+          }
+        },
+        {
+          "id": "Q2",
+          "text": "When was Control last reviewed or updated across all systems?",
+          "response_options": [
+            "Not Implemented",
+            "Partially Implemented",
+            "Mostly Implemented",
+            "Fully Implemented"
+          ],
+          "template_id": 4,
+          "parameters": {
+            "control": "Control",
+            "scope": "across all systems"
+          },
+          "metadata": {
+            "created": "2023-07-20T12:00:00Z",
+            "last_modified": "2023-07-20T12:00:00Z"
+          }
+        }
+      ]
+    },
+    {
+      "id": "CIS_BENCHMARKS_001",
+      "name": "CIS Benchmarks Maturity Assessment",
+      "type": "benchmarks",
+      "questions": [
+        {
+          "id": "Q1",
+          "text": "Do metrics show improvement in Pfsense Firewall configuration compliance in production environments?",
+          "response_options": [
+            "Not Implemented",
+            "Partially Implemented",
+            "Mostly Implemented",
+            "Fully Implemented"
+          ],
+          "template_id": 18,
+          "parameters": {
+            "control": "Pfsense Firewall",
+            "scope": "in production environments"
+          },
+          "metadata": {
+            "created": "2023-07-20T12:00:00Z",
+            "last_modified": "2023-07-20T12:00:00Z"
+          }
+        },
+        {
+          "id": "Q2",
+          "text": "Must any exceptions to A Cis Benchmark benchmarks be documented within our organization?",
+          "response_options": [
+            "Not Implemented",
+            "Partially Implemented",
+            "Mostly Implemented",
+            "Fully Implemented"
+          ],
+          "template_id": 15,
+          "parameters": {
+            "control": "A Cis Benchmark",
+            "scope": "within our organization"
+          },
+          "metadata": {
+            "created": "2023-07-20T12:00:00Z",
+            "last_modified": "2023-07-20T12:00:00Z"
+          }
+        }
+      ]
+    }
+  ]
+}
